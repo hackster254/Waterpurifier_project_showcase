@@ -1,8 +1,8 @@
-## Personal Portfolio
+## Water Purifier Project Showcase
 
-### [Live Site](https://jsmasterypro.com)
+### [Live Site](https://waterpurifier-project-showcase.vercel.app/)
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![Project Website](https://waterpurifier-project-showcase.vercel.app/)
 
 This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
 
