@@ -4,6 +4,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
+import { IconName, BiWorld } from "react-icons/bi";
 const Footer = () => {
   return (
     <FooterWrapper>
@@ -16,7 +17,7 @@ const Footer = () => {
       */}
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
+          <LinkItem href="karira.charles@gmail.com">
             karira.charles@gmail.com
           </LinkItem>
         </LinkColumn>
@@ -27,14 +28,14 @@ const Footer = () => {
           <Slogan>Site Created by Karira 💻</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/hackster254">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/charles-karira-1019551b0/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
+          <SocialIcons href="https://my_world-z3rmou.vertex360.co/">
+            <BiWorld size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const Img = styled.img `
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 50%;
+
 `;
 
 export const GridContainer = styled.section `
@@ -118,3 +120,14 @@ border-radius: 50px;
     
   }
 `
+
+export const Div3 = styled.div `
+  grid-area: 1 / 5 / 2 / 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    align-items: center;
+    grid-area: 1 / 4 / 2 / 6;
+  }
+`;

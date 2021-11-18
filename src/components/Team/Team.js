@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, SocialIcons } from './TeamStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, SocialIcons, Div3 } from './TeamStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import {members} from '../../constants/constants';
 
@@ -15,24 +15,23 @@ const Team = () => (
         <GridContainer>
             {members.map((p,i) => {
                 return (
-                <BlogCard key={i} >
+                  <BlogCard key={i}>
                     <Img src={p.image} />
                     <HeaderThree title>{p.name}</HeaderThree>
                     <Hr />
-                        <TitleContent>{p.school}</TitleContent>
+                    <TitleContent>{p.school}</TitleContent>
                     <br />
-                        <CardInfo className="card-info">{p.role}</CardInfo>
-                        <br />
-                    <div>
-                            <SocialIcons href={p.github}>
-                                <AiFillGithub size="3rem" />
-                            </SocialIcons>
-                            <SocialIcons href={p.linkedin}>
-                                <AiFillLinkedin size="3rem" />
-                            </SocialIcons>
-                            
-                    </div>
-                </BlogCard>
+                    <CardInfo className="card-info">{p.role}</CardInfo>
+                    <br />
+                    <Div3>
+                      <SocialIcons href={p.github}>
+                        <AiFillGithub size="3rem" />
+                      </SocialIcons>
+                      <SocialIcons href={p.linkedin}>
+                        <AiFillLinkedin size="3rem" />
+                      </SocialIcons>
+                    </Div3>
+                  </BlogCard>
                 );
                
             })}
