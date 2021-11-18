@@ -36,4 +36,4 @@ yarn-error.log*
 .vercel
 
 # profile pic images
-/public/profilepics
+#/public/profilepics
