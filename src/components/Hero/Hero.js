@@ -14,7 +14,7 @@ const Playvideo=()=>{
   //alert("button pressed so play video")
   return(
    <div>
-      <ReactPlayer controls url="https://www.youtube.com/watch?v=OPaLnMw2i_0&ab_channel=JavaScriptMastery" />
+      <ReactPlayer controls url="https://youtu.be/efoUl2AfSIE" />
       
     </div>
   );
