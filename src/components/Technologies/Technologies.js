@@ -3,6 +3,7 @@ import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, smallImage } from './TechnologiesStyles';
 
+import { ListGroup, ListGroupItem} from 'react-bootstrap';
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
@@ -52,6 +53,16 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
+     <SectionText>
+      Additional features
+    </SectionText>
+   
+    <ListGroup as="ol" numbered>
+      <ListGroup.Item as="li">Reminder to change and replace the filters through SMS integration</ListGroup.Item>
+      <ListGroup.Item as="li">Visualize flow statistics and volumes through Thingspeak API dashboard</ListGroup.Item>
+      <ListGroup.Item as="li">Cellular connection and thus WiFi is not needed as data can be send to cloud via GPRS</ListGroup.Item>
+    </ListGroup>
+    <br />
     <SectionDivider colorAlt />
   </Section>
 );
