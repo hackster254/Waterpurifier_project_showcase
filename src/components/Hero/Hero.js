@@ -34,7 +34,7 @@ return(
         <SectionText>
         This is a solar based water purification and purification unit. The project leverages on Solar energy, ultrafiltration and Ultra-Violet Purification to provide clean drinking water. This is our final year project submission.
         </SectionText>
-        <Button onClick={onmyPress}>Find Out More</Button>
+        <Button onClick={onmyPress}>Click to WATCH!</Button>
         {hidden  ? <Playvideo/> : null  }
         
       </LeftSection>

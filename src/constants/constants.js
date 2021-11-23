@@ -69,7 +69,7 @@ export const members = [{
         role: "Project Supervisor",
         linkedin: "https://www.linkedin.com/in/samson-n-njoroge-23a77817/",
         github: "",
-        image: "/profilepics/noavatar.png",
+        image: "/profilepics/lec.jpeg",
         id: 2,
     },
 ];
@@ -88,7 +88,7 @@ export const purifier = [{
         description: "Using Autocad a 3D model was conceptualized and drawn. ",
         tags: ["Autocad", "Design", "Automation"],
         image: "/images/filterdesign.png",
-        link: "",
+        link: "https://www.efa.crowdsolve.net/workspace/workspace/team-2020-25-jomo-kenyatta-university-of-agriculture-and-technology-kenya-title-solar-powered-water-filtration-and-purification-system",
         id: 1,
     },
     {
@@ -104,7 +104,7 @@ export const purifier = [{
         description: "Using KiCAD we designed the PCB and fabricated it. The unit is controlled by Lilygo TCall module that controls the operations enabling remote control using GSM. ",
         tags: ["KICAD", "Design", "Circuit", "Simulation"],
         image: "/images/pcb.jpeg",
-        link: "", // link to source code
+        link: "https://github.com/hackster254/Water-purifier-LILYGO-Project/tree/main/WATER%20PURIFIER%20LILYGO%20PCB", // link to source code
         id: 3,
     },
 ];
